@@ -27,10 +27,45 @@ Convierte texto en audio en múltiples idiomas de forma sencilla, rápida y dive
 
 
   ## Estructura del Proyecto
-
-SPEECHIO-TTS/ │ ├── app.py ├── requirements.txt ├── .env │ ├── db/ │ ├── __init__.py │ ├── engine.py │ ├── models.py │ ├── persistance.py │ ├── migrate.sh │ └── tts_multilingual.db │ ├── tts/ │ ├── __init__.py │ ├── tts_engine.py │ └── language_config.py │ ├── utils/ │ ├── __init__.py │ ├── helpers.py │ └── prompt_loader.py │ └── data/ └── prompts/ ├── basics/ │ ├── en.txt │ ├── es.txt │ ├── fr.txt │ └── de.txt ├── bussiness/ ├── tech/ └── travel/
-
-
+```
+SPEECHIO-TTS/
+│
+├── app.py
+├── requirements.txt
+├── .gitignore
+│
+├── db/
+│   ├── __init__.py
+│   ├── engine.py
+│   ├── models.py
+│   ├── persistance.py
+│   └── tts_multilingual.db
+│
+├── tts/
+│   ├── __init__.py
+│   ├── tts_engine.py
+│   └── language_config.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── helpers.py
+│   └── prompt_loader.py
+│
+└── data/
+    └── prompts/
+        ├── basics/
+        │   ├── en.txt
+        │   ├── es.txt
+        │   ├── fr.txt
+        │   └── de.txt
+        |   └── ...
+        ├── bussiness/
+        |   └── ...
+        ├── tech/
+        |   └── ...
+        └── travel/
+            └── ...
+```
 ---
 
 ## Instalación
