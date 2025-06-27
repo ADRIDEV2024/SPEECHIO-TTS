@@ -35,36 +35,37 @@ SPEECHIO-TTS/ │ ├── app.py ├── requirements.txt ├── .env │
 
 ## Instalación
 
-1. **Clona el repositorio:**
+1. Clona el repositorio:
    ```sh
    git clone https://github.com/ADRIDEV2024/SPEECHIO-TTS.git
    cd SPEECHIO-TTS
 
-2. **Crea un entorno virtual (yo utilo venv en la mayoría de los casos) y actívalo:**
+2. Crea un entorno virtual (yo utilo venv en la mayoría de los casos) y actívalo:
   ```sh
 python -m venv venv
 venv\Scripts\activate   # En Windows
 source venv/bin/activate  # En Linux/Mac
+ ```
 
-3. **Instala las dependencias del proyecto:**
-
+3. Instala las dependencias del proyecto:
+```sh
 pip install -r requirements.txt
-
-4. **Configura tus variables de entorno con .env en la raíz con tu apikey de OpenAI:**
-
+```
+4. Configura tus variables de entorno con .env en la raíz con tu apikey de OpenAI:
+```sh
 OPENAI_API_KEY=tu_clave_openai
-
+```
 ## Inicialización y Uso
 
 
-1. **Inicializa la base de datos (opcional, solo la primera vez):**
-
+1. Inicializa la base de datos (opcional, solo la primera vez):
+```sh
 python -c "from db import init_db; init_db()"
-
-2. **Ejecuta la aplicación:**
-
+```
+2. Ejecuta la aplicación:
+```sh
 streamlit run app.py
-
+```
 3. **¡Listo! Accede a la interfaz web que se abrirá en tu navegador.**
   
 - **Caché de Audio:** Evita llamadas repetidas a la API almacenando los audios generados.
