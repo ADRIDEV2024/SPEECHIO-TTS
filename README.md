@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ```sh
 OPENAI_API_KEY=tu_clave_openai
 ```
-🔁## Inicialización y Uso
+## 🔁 Inicialización y Uso
 
 
 1. Inicializa la base de datos (opcional, solo la primera vez):
@@ -110,7 +110,7 @@ streamlit run app.py
 
 ---
 
-📂📝## Detalles de Carpetas y Archivos
+## 📂📝Detalles de Carpetas y Archivos
 
 # app.py
 
