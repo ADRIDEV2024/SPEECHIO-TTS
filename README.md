@@ -24,6 +24,48 @@ Convierte texto en audio en múltiples idiomas de forma sencilla, rápida y dive
 - **Historial y Favoritos:** Guarda y consulta tus conversiones recientes y frases favoritas.
   
 - **Ejemplos por Categoría:** Accede a frases de ejemplo organizadas por temas e idiomas.
+
+
+  ## Estructura del Proyecto
+
+SPEECHIO-TTS/ │ ├── app.py ├── requirements.txt ├── .env │ ├── db/ │ ├── __init__.py │ ├── engine.py │ ├── models.py │ ├── persistance.py │ ├── migrate.sh │ └── tts_multilingual.db │ ├── tts/ │ ├── __init__.py │ ├── tts_engine.py │ └── language_config.py │ ├── utils/ │ ├── __init__.py │ ├── helpers.py │ └── prompt_loader.py │ └── data/ └── prompts/ ├── basics/ │ ├── en.txt │ ├── es.txt │ ├── fr.txt │ └── de.txt ├── bussiness/ ├── tech/ └── travel/
+
+
+---
+
+## Instalación
+
+1. **Clona el repositorio:**
+   ```sh
+   git clone https://github.com/ADRIDEV2024/SPEECHIO-TTS.git
+   cd SPEECHIO-TTS
+
+2. **Crea un entorno virtual (yo utilo venv en la mayoría de los casos) y actívalo:**
+  ```sh
+python -m venv venv
+venv\Scripts\activate   # En Windows
+source venv/bin/activate  # En Linux/Mac
+
+3. **Instala las dependencias del proyecto:**
+
+pip install -r requirements.txt
+
+4. **Configura tus variables de entorno con .env en la raíz con tu apikey de OpenAI:**
+
+OPENAI_API_KEY=tu_clave_openai
+
+## Inicialización y Uso
+
+
+1. **Inicializa la base de datos (opcional, solo la primera vez):**
+
+python -c "from db import init_db; init_db()"
+
+2. **Ejecuta la aplicación:**
+
+streamlit run app.py
+
+3. **¡Listo! Accede a la interfaz web que se abrirá en tu navegador.**
   
 - **Caché de Audio:** Evita llamadas repetidas a la API almacenando los audios generados.
   
