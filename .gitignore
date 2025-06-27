@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.env
+venv/
+eggs/
+.eggs/
+lib/
+*.egg-info/
+*.egg
+.DS_STORE
+
+*.spec
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+cover/
+
+docs/_build/
+
+.mypy_cache/
+
+# Cython debug symbols
+cython_debug/
+
+.vscode/
