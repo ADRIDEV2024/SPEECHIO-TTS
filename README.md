@@ -109,3 +109,35 @@ streamlit run app.py
 - **Interfaz Web Moderna:** Todo gestionado desde una interfaz Streamlit intuitiva.
 
 ---
+
+## Detalles de Carpetas y Archivos
+
+app.py
+
+Punto de entrada principal. Gestiona la interfaz Streamlit, interacción con el usuario, historial, favoritos, ejemplos y lógica de audio.
+
+db/
+
+models.py: Define los modelos de historial y favoritos.
+persistance.py: Funciones CRUD para historial y favoritos usando SQLite.
+
+engine.py: Motor de base de datos alternativo (PostgreSQL).
+
+tts_multilingual.db: Base de datos PostgreSQL local (Producción).
+
+tts/
+
+tts_engine.py: Lógica para llamar a la API de OpenAI TTS.
+
+language_config.py: Configuración de idiomas y voces soportadas.
+
+__init__.py: Utilidades y clases para configuración TTS.
+utils/
+
+helpers.py: Funciones auxiliares para caché de audio y carga de ejemplos.
+
+prompt_loader.py: Carga frases de ejemplo por categoría e idioma.
+
+data/prompts/
+
+Frases de ejemplo organizadas por categorías (basics, bussiness, tech, travel) y por idioma (en.txt, es.txt, etc.).
