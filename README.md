@@ -154,3 +154,21 @@ Frases de ejemplo organizadas por categorías (basics, bussiness, tech, travel) 
 ## 4. Explora frases de ejemplo por idioma y categoría para practicar o inspirarte.
 
 ## 5. Descarga tus audios o elimina entradas del historial/favoritos según lo necesites.
+
+# CONTRIBUYE ⚡⚡
+
+¡Las contribuciones son bienvenidas!
+Por favor, sigue estas reglas básicas:
+
+1. Haz un fork y trabaja en una rama descriptiva.
+
+2. Incluye pruebas si agregas nuevas funcionalidades, a este TTS aún le falta 
+por crecer y convertirse en algo realmente maravilloso.
+
+3. Describe claramente tus cambios en el PR.
+
+4. Respeta la estructura y estilo del código existente.
+
+Sé amable y ayuda a mantener un ambiente colaborativo.
+
+¿Ideas, bugs o mejoras? ¡Abre un issue o PR! 
