@@ -26,7 +26,7 @@ Convierte texto en audio en múltiples idiomas de forma sencilla, rápida y dive
 - **Ejemplos por Categoría:** Accede a frases de ejemplo organizadas por temas e idiomas.
 
 
-  📏📐## Estructura del Proyecto
+ ## 📏📐 Estructura del Proyecto
 ```
 SPEECHIO-TTS/
 │
