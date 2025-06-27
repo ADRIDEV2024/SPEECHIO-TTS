@@ -143,14 +143,14 @@ prompt_loader.py: Carga frases de ejemplo por categoría e idioma.
 
 Frases de ejemplo organizadas por categorías (basics, bussiness, tech, travel) y por idioma (en.txt, es.txt, etc.).
 
-# /<>/ ¿Cómo funciona?
+# /<>/ ¿Cómo funciona?🤔
 
-## Selecciona un idioma y voz desde la barra lateral.
+## 1. Selecciona un idioma y voz desde la barra lateral.
 
-## Introduce el texto que deseas convertir a audio. Puedes traducirlo automáticamente al idioma seleccionado.
+## 2. Introduce el texto que deseas convertir a audio. Puedes traducirlo automáticamente al idioma seleccionado.
 
-## Genera el audio y escúchalo directamente en la app. Puedes guardar la frase en favoritos o consultar tu historial.
+## 3. Genera el audio y escúchalo directamente en la app. Puedes guardar la frase en favoritos o consultar tu historial.
 
-## Explora frases de ejemplo por idioma y categoría para practicar o inspirarte.
+## 4. Explora frases de ejemplo por idioma y categoría para practicar o inspirarte.
 
-## Descarga tus audios o elimina entradas del historial/favoritos según lo necesites.
+## 5. Descarga tus audios o elimina entradas del historial/favoritos según lo necesites.
