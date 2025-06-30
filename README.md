@@ -2,9 +2,9 @@
 
 Convierte texto en audio en múltiples idiomas de forma sencilla, rápida y divertida. Este proyecto aprovecha Streamlit, OpenAI TTS y LangChain para ofrecer una experiencia moderna de síntesis de voz multilingüe, con historial, favoritos, ejemplos y traducción automática.
 
-![App_image](https://github.com/user-attachments/assets/cbccbcad-5865-4357-a3bd-d98f6f3b89f9)
+![App_image](https://github.com/user-attachments/assets/d9b508a0-45dd-4580-98ef-ef47ee581a06)
 
----
+----
 
 ## Tabla de Contenidos
 
