@@ -1,0 +1,11 @@
+Hallo, wie geht es dir?
+Willkommen in unserer Text-zu-Sprache-Anwendung.
+Ich liebe es, Sprachen zu lernen.
+Dies ist ein Beispiel auf Deutsch.
+Schönen Tag noch!
+Können Sie mir bitte helfen?
+Das Wetter ist heute schön.
+Guten Morgen zusammen.
+Vielen Dank.
+Bis morgen.
+

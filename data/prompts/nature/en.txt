@@ -1,0 +1,10 @@
+Hello, how are you?
+Welcome to our text-to-speech application.
+I love learning languages.
+This is an example in English.
+Have a nice day!
+Can you help me, please?
+The weather is nice today.
+Good morning, everyone.
+Thank you very much.
+See you tomorrow.

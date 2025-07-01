@@ -1,0 +1,10 @@
+Hola, ¿cómo estás?
+Bienvenido a nuestra aplicación de texto a voz.
+Me encanta aprender idiomas.
+Este es un ejemplo en español.
+¡Que tengas un buen día!
+¿Puedes ayudarme, por favor?
+Hace buen tiempo hoy.
+Buenos días a todos.
+Muchas gracias.
+Nos vemos mañana.

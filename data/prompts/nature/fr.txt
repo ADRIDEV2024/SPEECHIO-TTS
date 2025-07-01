@@ -1,0 +1,10 @@
+Bonjour, comment ça va ?
+Bienvenue dans notre application de synthèse vocale.
+J'aime apprendre des langues.
+Ceci est un exemple en français.
+Bonne journée !
+Pouvez-vous m'aider, s'il vous plaît ?
+Il fait beau aujourd'hui.
+Bonjour à tous.
+Merci beaucoup.
+À demain.
