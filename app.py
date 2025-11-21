@@ -19,6 +19,11 @@ if "history" not in st.session_state:
 if "favorites" not in st.session_state:
     st.session_state.favorites = []
 
+if "history" in st.session_state:
+    st.session_state.history = []
+if "favorites" in st.session_state:
+    st.session_state.favorites = [*]
+
 with st.sidebar:
     st.header("Configuración de Idioma")
     lang = st.selectbox("Selecciona un idioma", options=list(language_config.SUPPORTED_LANGUAGES))
@@ -110,4 +115,5 @@ for i, (text, l, v) in enumerate(filtered_favs):
     with col2:
         if st.button("🗑️ Eliminar", key=f"rm_fav_{i}"):
             # eliminar lógica opcional: pendiente de implementar en BD
+
             st.warning("(Simulado) Entrada eliminada de favoritos")
